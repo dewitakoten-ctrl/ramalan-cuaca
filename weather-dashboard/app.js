@@ -1,4 +1,4 @@
-const API_KEY = 'YOUR_OPENWEATHERMAP_API_KEY';
+const API_KEY = '84b1d9cec18463e67560b67a045d983b';
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 
 const elements = {
@@ -103,7 +103,7 @@ function searchCity() {
     return;
   }
 
-  if (API_KEY === 'YOUR_OPENWEATHERMAP_API_KEY') {
+  if (API_KEY === '84b1d9cec18463e67560b67a045d983b') {
     showError('Set your OpenWeatherMap API key in app.js before searching.');
     hideWeather();
     return;
